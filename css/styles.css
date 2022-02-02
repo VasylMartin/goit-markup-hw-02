@@ -115,3 +115,8 @@ ul {
 .navigation-footer {
   color: rgba(255, 255, 255, 0.6);
 }
+
+.navigation-footer:hover,
+.navigation-footer:focus {
+  color: var(--secondary-link);
+}
