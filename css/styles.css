@@ -28,8 +28,22 @@ ul {
   color: var(--primaty-nav);
 }
 
+.logo-footer {
+  color: #ffffff;
+}
 .navigation {
   color: var(--primary-nav);
+}
+
+.button-main {
+  color: #ffffff;
+  background-color: #2196f3;
+}
+
+.button-main:hover,
+.button-main:focus {
+  color: #ffffff;
+  background-color: #188ce8;
 }
 
 .navigation:hover,
@@ -70,6 +84,9 @@ ul {
 }
 
 /* SECTIONS */
+.header {
+  background-color: #ffffff;
+}
 .section-one {
   background-color: #2f303a;
 }
@@ -80,4 +97,21 @@ ul {
 
 .section-three {
   background-color: #ffffff;
+}
+
+.section-four {
+  background-color: #f5f4fa;
+}
+
+.footer {
+  background-color: #2f303a;
+}
+
+.text-footer {
+  color: #ffffff;
+  font-style: normal;
+}
+
+.navigation-footer {
+  color: rgba(255, 255, 255, 0.6);
 }
