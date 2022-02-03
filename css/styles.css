@@ -186,6 +186,7 @@ body {
 }
 
 .mbtn {
+  cursor: pointer;
   background-color: var(--bcg-mbtn);
   color: #ffffff;
   font-weight: 700;
@@ -243,10 +244,11 @@ body {
 
 /* SECTION 1 [portfolio.html] */
 .btn {
+  cursor: pointer;
   background-color: var(--bcg-btn);
   color: var(--title-nav-btn);
   font-family: Roboto, sans-serif;
-  font-style: normal;
+  /* font-style: normal; */
   font-weight: 500;
   font-size: 16px;
   line-height: 1.625;
