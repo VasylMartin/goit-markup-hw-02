@@ -91,3 +91,52 @@ letter-spacing: 0.03em;
   --bcg-footer-msec: #2f303a;
   --footer-contacts: rgba(255, 255, 255, 0.6);
 }
+
+body {
+  color: var(--text);
+  font-family: Roboto;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+}
+
+/* HEADER */
+.logo {
+  color: #000000;
+  font-family: Raleway;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+}
+
+.logo-first {
+  color: #2196f3;
+}
+
+.nav {
+  color: var(--title-nav-btn);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+
+.nav:hover,
+.nav:focus {
+  color: var(--hov-nav-contacts);
+}
+
+.contact {
+  color: var(--text);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+
+.contact:hover,
+.contact:focus {
+  color: var(--hov-nav-contacts);
+}
