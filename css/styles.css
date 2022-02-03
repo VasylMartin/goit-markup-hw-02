@@ -1,8 +1,93 @@
-/* GLOBAL FIX a */
+/* GLOBAL FIX a&ul */
 a {
   text-decoration-line: none;
 }
 
 ul {
   list-style: none;
+}
+
+/* 
+COLORS 
+Цвет основного текста #757575;
+Цвет заголовков/навигации/кнопок #212121;
+Цвет ховера/фокуса навигации и контактов #2196F3;
+Цвет главного заголовка/ховера кнопок #FFFFFF;
+Заливка главной кнопки #2196F3;
+Заливка главной кнопки ховер/фокус #188CE8;
+Заливка кнопок #F5F4FA;
+Заливка кнопок ховер/фокус #2196F3;
+Заливка футтера и первой секции #2F303A;
+Цвет контактов футера rgba(255, 255, 255, 0.6);
+
+*/
+
+/* 
+TEXT
+Основной щрифт Roboto;
+
+основной текст
+font-weight: normal;
+font-size: 14px;
+line-height: 24px;
+letter-spacing: 0.03em;
+
+логотип
+font-family: Raleway;
+font-style: normal;
+font-weight: bold;
+font-size: 26px;
+line-height: 31px;
+letter-spacing: 0.03em;
+
+навигация 
+font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.02em;
+
+контакты хедер
+font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.02em;
+
+главный заголовок
+font-weight: 900;
+font-size: 44px;
+line-height: 60px;
+letter-spacing: 0.06em;
+text-transform: uppercase;
+
+Второй заголовок
+font-weight: bold;
+font-size: 36px;
+line-height: 42px;
+letter-spacing: 0.03em;
+
+Третий заголовок
+font-weight: bold;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.03em;
+
+контакты футтер
+font-weight: normal;
+font-size: 14px;
+line-height: 24px;
+letter-spacing: 0.03em;
+
+
+*/
+:root {
+  --text: #757575;
+  --title-nav-btn: #212121;
+  --hov-nav-contacts: #2196f3;
+  --mtitle-hovbtn: #ffffff;
+  --bcg-mbtn: #2196f3;
+  --bcg-mbtn-hov: #188ce8;
+  --bcg-btn: #f5f4fa;
+  --bcg-btn-hov: #2196f3;
+  --bcg-footer-msec: #2f303a;
+  --footer-contacts: rgba(255, 255, 255, 0.6);
 }
