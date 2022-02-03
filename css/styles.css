@@ -95,6 +95,7 @@ letter-spacing: 0.03em;
 body {
   color: var(--text);
   font-family: Roboto, sans-serif;
+  /* font-weight: 400; */
   font-size: 14px;
   line-height: 1.7;
   letter-spacing: 0.03em;
@@ -237,5 +238,39 @@ body {
   font-size: 16px;
   line-height: 1.187;
   text-align: center;
+  letter-spacing: 0.03em;
+}
+
+/* SECTION 1 [portfolio.html] */
+.btn {
+  background-color: var(--bcg-btn);
+  color: var(--title-nav-btn);
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.625;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.btn:hover,
+.btn:focus {
+  background-color: var(--bcg-btn-hov);
+  color: #ffffff;
+}
+
+.case-title {
+  color: var(--title-nav-btn);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+
+.case-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.875;
   letter-spacing: 0.03em;
 }
