@@ -139,3 +139,32 @@ body {
 .contact:focus {
   color: var(--hov-nav-contacts);
 }
+
+/* FOOTER */
+.footer {
+  background-color: var(--bcg-footer-msec);
+}
+
+.logo-footer {
+  color: #ffffff;
+  font-family: Raleway;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+}
+
+.address {
+  color: #ffffff;
+  font-style: normal;
+}
+
+.contact-footer {
+  color: var(--footer-contacts);
+  font-style: normal;
+}
+
+.contact-footer:hover,
+.contact-footer:focus {
+  color: var(--hov-nav-contacts);
+}
