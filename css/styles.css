@@ -168,3 +168,32 @@ body {
 .contact-footer:focus {
   color: var(--hov-nav-contacts);
 }
+
+/* SECTION 1 [index.html] */
+.sec-one {
+  background-color: var(--bcg-footer-msec);
+}
+
+.mtitle {
+  color: var(--mtitle-hovbtn);
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.mbtn {
+  background-color: var(--bcg-mbtn);
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.875;
+  letter-spacing: 0.06em;
+}
+
+.mbtn:hover,
+.mbtn:focus {
+  background-color: var(--bcg-mbtn-hov);
+}
