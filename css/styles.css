@@ -199,8 +199,7 @@ body {
 }
 
 /* SECTION 2 [index.html] */
-
-.advantage {
+.second-title {
   color: var(--title-nav-btn);
   font-weight: 700;
   font-size: 36px;
@@ -216,4 +215,27 @@ body {
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+}
+
+/* SECTION 3 [index.html] см.SECTION 2 */
+
+/* SECTION 4 [index.html] */
+.section-four {
+  background-color: #f5f4fa;
+}
+
+.card-title {
+  color: var(--title-nav-btn);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.187;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.card-info {
+  font-size: 16px;
+  line-height: 1.187;
+  text-align: center;
+  letter-spacing: 0.03em;
 }
